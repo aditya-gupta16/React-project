@@ -21,10 +21,9 @@ const Contact = () => {
 
   const submit = (event) =>{
     event.preventDefault();
+    
 
-    const {name, email, password} = input;
-
-    if(!name || !email || !password){
+    if(!input.name || !input.email || !input.password){
       alert("All fields are required")
       
     } 

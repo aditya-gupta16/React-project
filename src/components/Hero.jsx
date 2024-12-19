@@ -29,7 +29,7 @@ const Hero = () => {
           Welcome to the Hero Section
         </h1>
       </div>
-
+      
 
       <div className="w-full justify-around h-auto bg-zinc-600 flex gap-5 ">
       {cardData.map((data) => {

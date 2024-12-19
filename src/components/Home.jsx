@@ -36,7 +36,7 @@ const Home = () => {
   return (
    
     <>
-    <h1 className='bg-zinc-700 w-full text-center text-5xl tracking-tighter py-10'>Welcome to Our Home Section</h1>
+    <h1 className='bg-zinc-700 w-full text-center text-3xl tracking-tighter py-6'>Welcome to Our Home Section</h1>
     <div className='w-full text-center justify-around flex gap-4'>
         {img.map((data)=>(
          <li className='list-none'>

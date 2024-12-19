@@ -1,0 +1,45 @@
+
+
+    [
+    {
+        "id": 1,
+        "name": "Maharana Pratap",
+        "age": 45,
+        "email": "maharana@gmail.com",
+        "Quality": "Great Fighter"
+    },
+     {
+        "id": 2,
+        "name": "Shivaji Maharaj",
+        "age": 50,
+        "email": "shivaji@gmail.com",
+         "Quality": "Powerfull people come from power full place"
+    },
+     {
+        "id": 3,
+        "name": "Raja Bhoj",
+        "age": 60,
+        "email": "raja@gmail.com",
+         "Quality": "Discovered bhopal"
+    },
+     {
+        "id": 4,
+        "name": "Prithvi Raj",
+        "age": 65,
+        "email": "prithvi@example.com",
+         "Quality": "King of rajasthan"
+    },
+     {
+        "id": 5,
+        "name": "Bhagat Singh",
+        "age": 28,
+        "email": "bhagat@gmail.com",
+         "Quality": "Young Freedom fighter"
+    }
+
+    
+
+
+
+]
+

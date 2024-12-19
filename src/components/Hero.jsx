@@ -24,7 +24,7 @@ const Hero = () => {
 
   return (
     <div>
-      <div className="h-24 w-full py-6 bg-red-400 ">
+      <div className="h-24 w-full py-6 bg-orange-400 ">
         <h1 className="text-4xl text-center text-blue-800">
           Welcome to the Hero Section
         </h1>
@@ -35,7 +35,7 @@ const Hero = () => {
       {cardData.map((data) => {
         return (
          
-            <div className="card flex gap-5 my-8 h-auto w-96 bg-yellow-500 text-center  rounded-lg">
+            <div className="card flex gap-5 my-8 h-auto w-96 bg-blue-900 text-center  rounded-lg">
               <div key={data.id} className="card w-full">
                 <div className="w-full flex flex-col items-center  ">
                   <h1 className="mt-4 text-black p-4 rounded-lg text-white ">

@@ -1,27 +1,29 @@
-import { name } from 'ejs';
 import React from 'react'
 
 
 const img = [
   {
     id: 1,
-    name: "hello world",
-    src: "https://images.unsplash.com/photo-1733169128556-6faa85ba76e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D",
+    name: "Amazon",
+    src: "https://i.pinimg.com/236x/fa/16/b8/fa16b892512b3df516211c68fc489134.jpg",
     alt: "Image 1",
+    value: "Submit"
   },
 
   {
     id: 2,
-    name: "world",
-    src: "https://images.unsplash.com/photo-1733513458601-281b27dc5edc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyOXx8fGVufDB8fHx8fA%3D%3D",
+    name: "Flipkart",
+    src: "https://i.pinimg.com/236x/b3/1b/72/b31b724d0258ec3e6475843cb4efc7a6.jpg",
     alt: "Image 1",
+    value: "Submit"
   },
 
   {
     id: 3,
-    name: "world hello",
-    src: "https://images.unsplash.com/photo-1733169128556-6faa85ba76e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyNXx8fGVufDB8fHx8fA%3D%3D",
+    name: "Ajio",
+    src: "https://i.pinimg.com/236x/df/6b/f1/df6bf1e56460cc26f20b99f85af896ae.jpg",
     alt: "Image 1",
+    value: "Submit"
   },
  
 ]
@@ -33,17 +35,20 @@ const Home = () => {
   var a = 12;
   return (
    
-    <div>
+    <>
+    <h1 className='bg-zinc-700 w-full text-center text-5xl tracking-tighter py-10'>Welcome to Our Home Section</h1>
+    <div className='w-full text-center justify-around flex gap-4'>
         {img.map((data)=>(
-         <li>
-           <p>{data.name}</p>
-            <img src={data.src} alt="" />
+         <li className='list-none'>
+           <p className='text-center text-3xl capitalize mt-44 '>{data.name}</p>
+            <img className='mt-4' src={data.src} alt="" />
+            <button className='px-6 py-1 border-2 border-black mt-4 rounded-lg '>{data.value}</button>
          </li>
-          
-
         ))}
         
     </div>
+
+    </>
   )
 }
 

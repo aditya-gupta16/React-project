@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Hero from './components/Hero'
+import Footer from './components/Footer'
 
 
 
@@ -25,6 +26,8 @@ const App = () => {
           <Route path='/contact' element={<Contact />} />
         </Routes>
       </Router>
+
+      <Footer />
       
       
     </div>

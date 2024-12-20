@@ -37,12 +37,12 @@ const Home = () => {
    
     <>
     <h1 className='bg-zinc-700 w-full text-center text-3xl tracking-tighter py-6'>Welcome to Our Home Section</h1>
-    <div className='w-full text-center justify-around flex gap-4'>
+    <div className='w-full text-center justify-around flex gap-4 py-4'>
         {img.map((data)=>(
          <li className='list-none'>
            <p className='text-center text-3xl capitalize mt-44 '>{data.name}</p>
             <img className='mt-4' src={data.src} alt="" />
-            <button className='px-6 py-1 border-2 border-black mt-4 rounded-lg '>{data.value}</button>
+            <button className='px-6 py-1 shadow-lg hover:shadow-black border-2 hover:border-blue-500 border-black mt-4 rounded-lg '>{data.value}</button>
          </li>
         ))}
         

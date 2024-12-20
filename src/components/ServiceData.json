@@ -30,6 +30,39 @@
         "Status": "Non-Available",
         "Rating": "4.1/5.0"
 
+    },
+
+    {
+        "id": "1",
+        "name": "John Don",
+        "Service": "Web Development",
+        "Location": "New York",
+        "Time": "9 AM - 5 PM",
+        "Status": "Available",
+        "Rating": "4.5/5.0"
+
+    },
+
+    {
+        "id": "2",
+        "name": "John Cena",
+        "Service": "App Development",
+        "Location": "United States",
+        "Time": "9 AM - 5 PM",
+        "Status": "Available",
+        "Rating": "4.7/5.0"
+
+    },
+
+    {
+        "id": "3",
+        "name": "John Ibrahim",
+        "Service": "Digital Marketing",
+        "Location": "United States",
+        "Time": "9 AM - 5 PM",
+        "Status": "Non-Available",
+        "Rating": "4.1/5.0"
+
     }
 
 

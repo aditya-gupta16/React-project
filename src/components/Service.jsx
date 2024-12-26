@@ -3,6 +3,18 @@ import ServiceData from './ServiceData.json'
 import { MdOutlinePhoneCallback } from "react-icons/md";
 
 
+fetch('http://localhost:3000/api/login')
+  .then((response) => response.json()) // Response ko JSON mein convert karta hai
+  .then((data) => console.log(data))   // Data use karta hai
+  .catch(error => console.error('Error:', error));
+
+  fetch('http://localhost:3000/api/about')
+  .then((response) => response.json()) // Response ko JSON mein convert karta hai
+  .then((data) => console.log(data))   // Data use karta hai
+  .catch(error => console.error('Error:', error));
+
+  
+
 
 
 const Service = () => {
@@ -36,7 +48,7 @@ const Service = () => {
            <h2 className='px-12  text-2xl'>+91-9039574104</h2>
            </div>
            <div>
-            <button className='text-xl border-2 border-white p-4 text-white rounded-full'>Make Appointment</button>
+            <a href="/contact"><button className='text-xl border-2 border-white p-4 text-white rounded-full'>Make Appointment</button></a>
            </div>
 
       </div>
@@ -51,7 +63,3 @@ const Service = () => {
 export default Service
 
 
-// fetch('http://localhost:3000/api/user')
-//   .then((response) => response.json()) // Response ko JSON mein convert karta hai
-//   .then((data) => console.log(data))   // Data use karta hai
-//   .catch(error => console.error('Error:', error));

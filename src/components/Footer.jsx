@@ -17,13 +17,13 @@ const Footer = () => {
                             <a href="https://instagram.com"><IoLogoInstagram /></a>
                         </li>
                         <li className='m-2'>
-                            <a href="https://instagram.com"><IoLogoFacebook/></a>
+                            <a href="https://facebook.com"><IoLogoFacebook/></a>
                         </li>
                         <li className='m-2'>
-                            <a href="https://instagram.com"><IoLogoWhatsapp/></a>
+                            <a href="https://whatsapp.com"><IoLogoWhatsapp/></a>
                         </li>
                         <li className='m-2'>
-                            <a href="https://instagram.com"><FaTelegram /></a>
+                            <a href="https://telegram.com"><FaTelegram /></a>
                         </li>
                     </ul>
 

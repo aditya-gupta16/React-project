@@ -33,6 +33,7 @@ const Service = () => {
             <p>{Data.Time}</p>
             <p className='text-red-900'>{Data.Status}</p>
             <p className='mt-2 text-xl'>{Data.Rating}</p>
+            <a href=""> <p className='px-2 py-1 hover:bg-slate-600 border-2 rounded-lg w-44 m-2.5 mx-4 cursor-pointer text-center border-black'>{Data.button}</p></a>
           
           </div> 
 

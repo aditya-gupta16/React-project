@@ -5,7 +5,7 @@ import { FaTelegram } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div>
-        <div className='w-full p-14 pt-4 h-96 bg-black text-white'>
+        <div className='w-full p-14 pt-4 lg:h-96 sm:py-1 bg-black text-white'>
             <div className='Logo text-lg '>
                 <h1 className='text-5xl'>Logo</h1>
                 <div className='mt-4 w-1/2'>

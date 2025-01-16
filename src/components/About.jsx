@@ -3,6 +3,9 @@ import AboutData from './AboutData.json'
 // import Navbar from './Navbar'  
 
 const About = () => {
+
+  
+
   return (
     <div>
    

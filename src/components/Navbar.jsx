@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {Link} from 'react-router-dom'
+// import Home from './Home';
 
 const Navbar = () => {
+
+  
+
   return (
 
+      <>
       <nav className='w-full h-24 bg-black text-white flex items-center justify-between px-8 text-lg'>
         <a href="/"><h1 className='text-blue-500 font-bold text-2xl'>Logo</h1></a>
         <ul className='flex gap-5 '>
@@ -15,8 +20,9 @@ const Navbar = () => {
         </ul>
 
       </nav>
+      </>
     
   ) 
 }
 
-export default Navbar
+export default Navbar;

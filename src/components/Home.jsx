@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 
 const img = [
@@ -30,8 +30,33 @@ const img = [
 
 
 
-
 const Home = () => {
+
+  useEffect(()=>{
+    console.log("Component Mounted")
+    alert("Component Mounted")
+    
+    return(()=>{
+      console.log('Component UnMounted')
+      alert("Component Unmounted")
+    })
+
+    
+
+  },[])
+
+  // <%= %>
+
+
+  // useEffect(()=>{
+  //   console.log('Component Mounted')
+
+  //   return()=>{
+  //     console.log('Component Unmounted')
+  //     // cleanup code here (e.g., cancel subscriptions, clear timers)
+  //   }
+  // },[])
+
   var a = 12;
   return (
    

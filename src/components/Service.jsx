@@ -3,17 +3,20 @@ import ServiceData from './ServiceData.json'
 import { MdOutlinePhoneCallback } from "react-icons/md";
 
 
-fetch('http://localhost:3000/api/login')
-  .then((response) => response.json()) // Response ko JSON mein convert karta hai
-  .then((data) => console.log(data))   // Data use karta hai
-  .catch(error => console.error('Error:', error));
+// fetch('http://localhost:3000/api/login')
+//   .then((response) => response.json()) // Response ko JSON mein convert karta hai
+//   .then((data) => console.log(data))   // Data use karta hai
+//   .catch(error => console.error('Error:', error));
 
   fetch('http://localhost:3000/api/about')
   .then((response) => response.json()) // Response ko JSON mein convert karta hai
   .then((data) => console.log(data))   // Data use karta hai
   .catch(error => console.error('Error:', error));
 
-  
+  // fetch('courses/data-structure'){
+  //   .then((data) => console.log(data))
+
+  // }
 
 
 
